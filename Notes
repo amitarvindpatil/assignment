@@ -1,0 +1,39 @@
+For the Run this application
+pip install django
+pip install djangorestframwork
+
+---If you want to create superuser then fire this command
+python manage.py createsuperuser
+
+python manage.py runserver 0.0.0.0:8000
+
+URLS for executing----------------
+
+For Registration-----------
+http://127.0.0.1:8000/api/profile/
+After Registration Token has been generated........
+
+For Login-----------
+http://127.0.0.1:8000/api/login/
+After login you get token which represent in string format
+copy that link and save it to browser(Modheader)
+select request header and pass the values like
+e.g.
+Name - Authorization
+value - Token asdfasdjfhkjadsfhkj
+
+below api's the product,order,OrderItem can be perfrom like list of data,create of data and Update of data
+
+After login the below api are executing----------
+urls for product
+http://127.0.0.1:8000/order/products/
+urls for order
+http://127.0.0.1:8000/order/orders/
+urls for orderitem
+http://127.0.0.1:8000/order/orderitem/
+
+
+Note - Delete opeation not mention in code just
+beacuse as per the IT rule the Delete fuctionality not provided in the system
+but for the assignment it mention in comment section
+orders-views-Product api
