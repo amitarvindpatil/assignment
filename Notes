@@ -4,6 +4,8 @@ pip install djangorestframwork
 
 
 
+
+
 ---If you want to create superuser then fire this command
 python manage.py createsuperuser
 
