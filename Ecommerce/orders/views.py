@@ -143,7 +143,8 @@ class get_post_order(ListCreateAPIView):
 
     def get_queryset(self):
         queryset = Order.objects.all()
-        
+        # made changes in dev 
+        # authentication_classes = (TokenAuthentication,)
         return queryset
 
     # Get method
